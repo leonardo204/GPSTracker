@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if let user = FIRAuth.auth()?.currentUser {
+            mailTextForm.placeholder = "already logged in"
+            passwdTextForm.placeholder = "already logged in"
+            loginButton.setTitle("Logout", for: .normal)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,6 +35,14 @@ class ViewController: UIViewController {
     @IBAction func processRegButton(_ sender: Any) {
     }
     @IBAction func processLoginButton(_ sender: Any) {
+        FIRAuth.auth()?.signIn(withEmail: mailTextForm.text!, password: passwdTextForm.text!) { (user, error) in
+            if user != nil {
+                print("login success")
+            } else {
+                print("login failed")
+            }
+        }
+        
     }
     
 }

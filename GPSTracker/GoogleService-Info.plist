@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>575835617358-nmbust13t72flrtso0a260e97vgtvned.apps.googleusercontent.com</string>
+	<string>575835617358-f7230csn3tt5ud8ol1gdudj0e2pesdb2.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.575835617358-nmbust13t72flrtso0a260e97vgtvned</string>
+	<string>com.googleusercontent.apps.575835617358-f7230csn3tt5ud8ol1gdudj0e2pesdb2</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBrY_KI-qWOLb_eJp1eUuVUxMH_vcualNc</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.zerolive.GPS-Tracker</string>
+	<string>com.zerolive.GPSTracker</string>
 	<key>PROJECT_ID</key>
 	<string>leogpstracker</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:575835617358:ios:a06d2f2ffbe2eedd</string>
+	<string>1:575835617358:ios:cc72e34207030859</string>
 	<key>DATABASE_URL</key>
 	<string>https://leogpstracker.firebaseio.com</string>
 </dict>

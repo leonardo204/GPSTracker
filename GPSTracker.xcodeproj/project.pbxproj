@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F24F95D1F876DAA000CB8EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FE76D531F876B9800EA982D /* GoogleService-Info.plist */; };
 		1FE76D401F87617B00EA982D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE76D3F1F87617B00EA982D /* AppDelegate.swift */; };
 		1FE76D421F87617B00EA982D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE76D411F87617B00EA982D /* ViewController.swift */; };
 		1FE76D451F87617B00EA982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE76D431F87617B00EA982D /* Main.storyboard */; };
@@ -24,7 +25,7 @@
 		1FE76D461F87617B00EA982D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE76D491F87617B00EA982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE76D4B1F87617B00EA982D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FE76D521F8766B100EA982D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FE76D531F876B9800EA982D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		34E63465BE678BFDF3066C94 /* Pods-GPSTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker.release.xcconfig"; sourceTree = "<group>"; };
 		F97BC5C8FC40C4853346B728 /* Pods-GPSTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPSTracker/Pods-GPSTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +69,7 @@
 				1FE76D461F87617B00EA982D /* Assets.xcassets */,
 				1FE76D481F87617B00EA982D /* LaunchScreen.storyboard */,
 				1FE76D4B1F87617B00EA982D /* Info.plist */,
-				1FE76D521F8766B100EA982D /* GoogleService-Info.plist */,
+				1FE76D531F876B9800EA982D /* GoogleService-Info.plist */,
 			);
 			path = GPSTracker;
 			sourceTree = "<group>";
@@ -153,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE76D4A1F87617B00EA982D /* LaunchScreen.storyboard in Resources */,
+				1F24F95D1F876DAA000CB8EC /* GoogleService-Info.plist in Resources */,
 				1FE76D471F87617B00EA982D /* Assets.xcassets in Resources */,
 				1FE76D451F87617B00EA982D /* Main.storyboard in Resources */,
 			);
