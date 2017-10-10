@@ -7,23 +7,26 @@
 //
 
 import UIKit
-import FirebaseAuth
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var mailTextForm: UITextField!
-    @IBOutlet weak var passwdTextForm: UITextField!
-    @IBOutlet weak var regButton: UIButton!
-    @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var Open: UIBarButtonItem!
+    @IBOutlet weak var Label: UILabel!
+    
+    var varView = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        if let user = FIRAuth.auth()?.currentUser {
-            mailTextForm.placeholder = "already logged in"
-            passwdTextForm.placeholder = "already logged in"
-            loginButton.setTitle("Logout", for: .normal)
+        Open.target = self.revealViewController()
+        Open.action = #selector(SWRevealViewController.revealToggle(_:))
+        
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+        if (varView == 0) {
+            Label.text = "Strings"
+        } else {
+            Label.text = "Ohters"
         }
     }
 
@@ -32,18 +35,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func processRegButton(_ sender: Any) {
-    }
-    @IBAction func processLoginButton(_ sender: Any) {
-        FIRAuth.auth()?.signIn(withEmail: mailTextForm.text!, password: passwdTextForm.text!) { (user, error) in
-            if user != nil {
-                print("login success")
-            } else {
-                print("login failed")
-            }
-        }
-        
-    }
+
     
 }
 

@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F016AF91F889FE1009D656E /* ShareScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F016AF81F889FE1009D656E /* ShareScene.swift */; };
+		1F016AFB1F889FE6009D656E /* MessageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F016AFA1F889FE6009D656E /* MessageScene.swift */; };
+		1F016AFF1F88A431009D656E /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F016AFE1F88A431009D656E /* LoginScene.swift */; };
+		1F016B011F88A453009D656E /* SignUpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F016B001F88A453009D656E /* SignUpScene.swift */; };
+		1F016B031F88A467009D656E /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F016B021F88A467009D656E /* SettingScene.swift */; };
+		1F016B091F88A7CB009D656E /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F016B081F88A7CB009D656E /* MainScene.swift */; };
 		1F24F95D1F876DAA000CB8EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FE76D531F876B9800EA982D /* GoogleService-Info.plist */; };
+		1F24F9641F8880C7000CB8EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F24F9631F8880C7000CB8EC /* MainViewController.swift */; };
+		1F24F9681F888D6C000CB8EC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F24F9661F888D6C000CB8EC /* SWRevealViewController.m */; };
+		1F24F96A1F8893CB000CB8EC /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F24F9691F8893CB000CB8EC /* BackTableVC.swift */; };
 		1FE76D401F87617B00EA982D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE76D3F1F87617B00EA982D /* AppDelegate.swift */; };
 		1FE76D421F87617B00EA982D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE76D411F87617B00EA982D /* ViewController.swift */; };
 		1FE76D451F87617B00EA982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE76D431F87617B00EA982D /* Main.storyboard */; };
@@ -18,6 +27,17 @@
 
 /* Begin PBXFileReference section */
 		1AAA2287E8A5AA4A6D3A8568 /* Pods_GPSTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F016AF81F889FE1009D656E /* ShareScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScene.swift; sourceTree = "<group>"; };
+		1F016AFA1F889FE6009D656E /* MessageScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScene.swift; sourceTree = "<group>"; };
+		1F016AFE1F88A431009D656E /* LoginScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScene.swift; sourceTree = "<group>"; };
+		1F016B001F88A453009D656E /* SignUpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScene.swift; sourceTree = "<group>"; };
+		1F016B021F88A467009D656E /* SettingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
+		1F016B081F88A7CB009D656E /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		1F24F9631F8880C7000CB8EC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1F24F9651F888D6B000CB8EC /* GPSTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPSTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F24F9661F888D6C000CB8EC /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1F24F9671F888D6C000CB8EC /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1F24F9691F8893CB000CB8EC /* BackTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
 		1FE76D3C1F87617B00EA982D /* GPSTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE76D3F1F87617B00EA982D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE76D411F87617B00EA982D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,11 +85,22 @@
 			children = (
 				1FE76D3F1F87617B00EA982D /* AppDelegate.swift */,
 				1FE76D411F87617B00EA982D /* ViewController.swift */,
+				1F016B001F88A453009D656E /* SignUpScene.swift */,
+				1F016B021F88A467009D656E /* SettingScene.swift */,
 				1FE76D431F87617B00EA982D /* Main.storyboard */,
+				1F016AFE1F88A431009D656E /* LoginScene.swift */,
+				1F016AF81F889FE1009D656E /* ShareScene.swift */,
+				1F016AFA1F889FE6009D656E /* MessageScene.swift */,
+				1F24F9691F8893CB000CB8EC /* BackTableVC.swift */,
 				1FE76D461F87617B00EA982D /* Assets.xcassets */,
 				1FE76D481F87617B00EA982D /* LaunchScreen.storyboard */,
 				1FE76D4B1F87617B00EA982D /* Info.plist */,
 				1FE76D531F876B9800EA982D /* GoogleService-Info.plist */,
+				1F24F9631F8880C7000CB8EC /* MainViewController.swift */,
+				1F24F9671F888D6C000CB8EC /* SWRevealViewController.h */,
+				1F24F9661F888D6C000CB8EC /* SWRevealViewController.m */,
+				1F24F9651F888D6B000CB8EC /* GPSTracker-Bridging-Header.h */,
+				1F016B081F88A7CB009D656E /* MainScene.swift */,
 			);
 			path = GPSTracker;
 			sourceTree = "<group>";
@@ -126,6 +157,7 @@
 				TargetAttributes = {
 					1FE76D3B1F87617B00EA982D = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -223,8 +255,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F24F9641F8880C7000CB8EC /* MainViewController.swift in Sources */,
+				1F016B091F88A7CB009D656E /* MainScene.swift in Sources */,
+				1F24F96A1F8893CB000CB8EC /* BackTableVC.swift in Sources */,
+				1F016B011F88A453009D656E /* SignUpScene.swift in Sources */,
 				1FE76D421F87617B00EA982D /* ViewController.swift in Sources */,
 				1FE76D401F87617B00EA982D /* AppDelegate.swift in Sources */,
+				1F016AFF1F88A431009D656E /* LoginScene.swift in Sources */,
+				1F016B031F88A467009D656E /* SettingScene.swift in Sources */,
+				1F016AF91F889FE1009D656E /* ShareScene.swift in Sources */,
+				1F016AFB1F889FE6009D656E /* MessageScene.swift in Sources */,
+				1F24F9681F888D6C000CB8EC /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,11 +403,14 @@
 			baseConfigurationReference = F97BC5C8FC40C4853346B728 /* Pods-GPSTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GPSTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zerolive.GPSTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GPSTracker/GPSTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,11 +421,13 @@
 			baseConfigurationReference = 34E63465BE678BFDF3066C94 /* Pods-GPSTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GPSTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zerolive.GPSTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GPSTracker/GPSTracker-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
